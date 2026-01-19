@@ -3,6 +3,24 @@
   // ============ Konfigurācija ============
   const symbols = ["★","☾","▲","◆","✚","⬣","⬟","●","▣"];
 
+const bgm = document.getElementById("bgm");
+if (bgm) bgm.volume = 0.22; // fons klusāks
+
+function startBgmOnce() {
+  if (!bgm) return;
+  // ja jau skan - neko
+  if (!bgm.paused) return;
+
+  bgm.play().catch(() => {
+    // ja vēl nobloķēts - nekas, mēģināsim nākamajā user-gesture
+  });
+}
+
+// Droši: jebkurš pirmais klikšķis/tap/taustiņš
+window.addEventListener("pointerdown", startBgmOnce, { once: true });
+window.addEventListener("keydown", startBgmOnce, { once: true });
+
+
   // ===== Welcome / start gate =====
   const intro = {
     greeting: "Čau, Nikola! Daudz laimes dzimšanas dienā! Esam tev sarūpējuši vienu dāvanu, kas liks parakāties atmiņas dzīlēs, paskaitīt, iespējams pasvīst un cerams sagādās pozitīvas emocijas. Vai esi gatava?",
