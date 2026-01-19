@@ -16,13 +16,13 @@
       title: "",
       background: "bg.jpg",
       targetSlot: 1,      // ☾
-      answer: "345",
+      answer: "543",
       cardHtml: `
         <p>Kas par fantastisku Gadu Secību bijusi.</p>
         <p class="muted">Uzgriez kodu pretī izvēlētajam simbolam.</p>
       `,
       hint1: "Šobrīd ir 2026.gads.",
-      hint2: "Tu taču saproti, ka gadi iet no mazākā uz lielāko.",
+      hint2: "Tu taču saproti, mazāks riņķis agrāks gads - loģiski ne?.",
       hint3: "Bledā mēs bijām 2025.gadā! Un tu saproti, ka uz diska nevar izvēlēties vairāk kā 1 ciparu, turklāt kāda jēga visos apļos būtu rakstīt to, kas atkārtojas! ",
     },
     {
@@ -44,7 +44,7 @@
       title: "",
       background: "bg2.jpg",
       targetSlot: 3,      // ◆
-      answer: "159",
+      answer: "195",
       cardHtml: `
         <p></p>
         <p class="muted">Uzgriez kodu pretī izvēlētajam simbolam.</p>
