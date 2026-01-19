@@ -30,7 +30,7 @@
       title: "",
       background: "bg1.jpg",
       targetSlot: 0,      // ★
-      answer: "149",
+      answer: "941",
       cardHtml: `
         <p>Steady, Dress up, Go!</p>
         <p class="muted">Uzgriez kodu pretī izvēlētajam simbolam.</p>
