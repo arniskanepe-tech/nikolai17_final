@@ -62,7 +62,7 @@ window.addEventListener("keydown", startBgmOnce, { once: true });
       title: "",
       background: "bg2.jpg",
       targetSlot: 3,      // ◆
-      answer: "195",
+      answer: "591",
       cardHtml: `
         <p></p>
         <p class="muted">Uzgriez kodu pretī izvēlētajam simbolam.</p>
