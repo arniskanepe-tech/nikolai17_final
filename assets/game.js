@@ -34,7 +34,7 @@ window.addEventListener("keydown", startBgmOnce, { once: true });
       title: "",
       background: "bg.jpg",
       targetSlot: 1,      // ☾
-      answer: "543",
+      answer: "532",
       cardHtml: `
         <p>Kas par fantastisku Gadu Secību bijusi.</p>
         <p class="muted">Uzgriez kodu pretī izvēlētajam simbolam.</p>
